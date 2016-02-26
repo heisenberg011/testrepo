@@ -1,0 +1,39 @@
+
+.about{padding: 100px}
+
+footer{
+  max-height: 5px;
+  background-color: #D8D8D8;
+  padding: 30px;
+  position: static;
+  bottom: 2px;
+  min-width: 1250px;
+}
+
+ul li:hover ul {
+            display: block;
+}
+.details{
+  font-size: 16px;
+}
+#tag{
+  text-align: center;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 12em;
+}
+
+{
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
